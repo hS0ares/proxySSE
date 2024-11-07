@@ -1,18 +1,17 @@
 {
-  "name": "salesforce-sse-proxy",
+  "name": "nodesse",
   "version": "1.0.0",
-  "description": "Proxy for Salesforce SSE",
-  "main": "server.js",
-  "engines": {
-    "node": "18.x"
-  },
+  "main": "server_mock.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "express": "^4.18.2",
     "cors": "^2.8.5",
-    "node-fetch": "^2.6.1",
-    "dotenv": "^16.0.3"
+    "express": "^4.21.1",
+    "http-proxy-middleware": "^3.0.3"
   }
 }
